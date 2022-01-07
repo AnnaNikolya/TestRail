@@ -10,6 +10,4 @@ public class HomePage extends BasePage{
     public void openPage() {
         driver.get(HOME_URL);
     }
-
-
 }

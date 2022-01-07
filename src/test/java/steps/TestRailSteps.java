@@ -34,8 +34,7 @@ public class TestRailSteps {
     }
     @And("click button {string}")
     public void clickTryTestRailForFree() {
-    $(By.xpath("//*[@id='et_builder_outer_content']/div/div/div[5]/div/div[1]/div[2]")).click();
-    }
+    $(By.xpath("//*[@id='et_builder_outer_content']/div/div/div[5]/div/div[1]/div[2]")).click();}
     @And("in the field {string} enter a value {string}")
     public void inTheFieldEnterAValue(String arg0, String arg1) {
     $("webAddress").shouldHave(exactText("Some text"));
