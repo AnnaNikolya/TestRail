@@ -46,7 +46,6 @@ public class TestRailSteps {
     }
     @And("in the field {string} choose a value {string}")
     public void inTheFieldChooseAValue(String arg0, String arg1) {
-
     }
     @And("choose input with text {string}")
     public void chooseInputWithText(String arg0) {
