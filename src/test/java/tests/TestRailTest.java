@@ -13,5 +13,4 @@ public class TestRailTest {
     )
     public class BookingTest extends AbstractTestNGCucumberTests {
     }
-
 }
